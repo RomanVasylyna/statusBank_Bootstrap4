@@ -1,0 +1,577 @@
+body{
+padding: 0;
+margin: 0;
+}
+
+#main{
+background-image: url(img/background.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+min-height: 990px;
+margin: 0;
+padding: 0;
+}
+
+#headerLogo{
+width: 600px;
+}
+
+li{
+list-style-type: none;
+padding-bottom: 10px;
+}
+
+li a{
+color: rgb(48, 50, 49);
+font-size: 2.5rem;
+}
+
+#send{
+color: white;
+background-color: rgb(15, 51, 237);
+}
+
+#mainCard{
+border: 2px solid  rgb(15, 51, 237);
+border-radius: 10px;
+min-height: 500px;
+background-color:rgba(255,255,255,0.8);
+}
+
+#phone{
+font-size: 1.2rem;
+}
+
+#mainRow{
+border-bottom: 1px solid rgb(15, 51, 237);
+padding-top: 2px;
+}
+
+.blue{
+color: rgb(15, 51, 237);
+}
+
+.fa{
+font-size: 45px;
+}
+
+#license{
+background-color: rgb(15, 51, 237);
+border-bottom-right-radius: 25px;
+border-bottom-left-radius: 25px;
+min-height: 50px;
+}
+
+#videoOne{
+border-top-left-radius: 25px;
+border: 1px solid rgb(15, 51, 237);
+}
+
+#promCol{
+border: 1px solid rgb(15, 51, 237);
+border-top-right-radius: 25px;
+}
+
+.advantages{
+font-size: 1.6rem;
+color: rgb(15, 51, 237);
+}
+
+.check{
+  font-size: 2.5rem;
+  color: rgb(15, 51, 237);
+  padding-left: 30px;
+}
+
+#without{
+  border: 1px solid rgb(15, 51, 237);
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+#videoTwo{
+  border: 1px solid rgb(15, 51, 237);
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.servicesIcons{
+font-size: 3.5rem;
+  color: rgb(15, 51, 237);
+}
+
+.circle{
+border: 2px solid rgb(15, 51, 237);
+border-radius: 50px;
+width: 100px;
+height: 100px;
+padding-top: 20px;
+}
+
+.service-card{
+min-height: 500px;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+#cardTable{
+border: 1px solid rgb(15, 51, 237);
+border-radius: 25px;
+}
+
+.tableHeader{
+color: rgb(15, 51, 237);
+font-size: 2rem;
+font-weight: bold;
+}
+
+.tableBlueRegularText{
+color: rgb(15, 51, 237);
+font-size: 1.5rem;
+font-weight: bold;
+}
+
+.tableRegularText{
+font-size: 1.5rem;
+font-weight: bold;
+}
+
+.tr{
+border-bottom:1px solid rgb(143, 145, 142);
+}
+
+
+table{
+border-top: none;
+}
+
+
+#bigVideoCol{
+  border-top-right-radius: 75px;
+  border-bottom-left-radius: 75px;
+  border: 10px solid rgb(64, 64, 64);
+  border-top-right-radius: 75px;
+  border-bottom-left-radius: 75px;
+}
+
+#aboutBank{
+background-color: rgb(44, 45, 43);
+border-top-right-radius: 10px;
+border-top-left-radius: 10px;
+}
+
+/*Dashboard Cards*/
+
+.dashboard-user{
+color: rgb(16, 100, 158);
+font-size: 3rem;
+}
+
+.dashboard-card-blue{
+background-color: rgb(44, 45, 43);
+border-bottom: 10px solid rgb(16, 100, 158);
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+
+.dashboard-card-card{
+background-color: rgb(44, 45, 43);
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+border: 0px;
+}
+
+.dashboard-shopping{
+  color: rgb(110, 255, 173);
+  font-size: 3rem;
+}
+
+.dashboard-card-lightblue{
+background-color: rgb(44, 45, 43);
+min-height: 400px;
+border-bottom: 10px solid rgb(110, 255, 173);;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+
+.dashboard-shopping{
+  color: rgb(110, 255, 173);
+  font-size: 3rem;
+}
+
+.dashboard-card-lightblue{
+background-color: rgb(44, 45, 43);
+min-height: 400px;
+border-bottom: 10px solid rgb(110, 255, 173);;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+
+.dashboard-money{
+  color: rgb(249, 246, 22);
+  font-size: 3rem;
+}
+
+.dashboard-card-yellow{
+background-color: rgb(44, 45, 43);
+min-height: 400px;
+border-bottom: 10px solid rgb(249, 246, 22);;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+
+.dashboard-gift{
+  color: rgb(130, 0, 129);
+  font-size: 3rem;
+}
+
+.dashboard-card-purple{
+background-color: rgb(44, 45, 43);
+min-height: 400px;
+border-bottom: 10px solid rgb(130, 0, 129);
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+
+/*Get Card Cards*/
+
+.getCardIcon{
+color: rgb(15, 51, 237);
+font-size: 4rem;
+}
+
+.getCardCol{
+min-height: 300px;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.getCardCard{
+border: 0px;
+}
+
+
+#supportRow{
+border: 1px solid blue;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+footer{
+background-color: rgb(44, 45, 43);
+color: white;
+}
+
+.footer-text{
+font-size: 1.2rem;
+}
+
+.footer-text-muted{
+color: rgb(161, 161, 163);
+}
+
+a.footer-text-muted{
+text-decoration: none;
+}
+
+a.footer-text-muted:hover{
+color: white;
+}
+
+#myBtn {
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: 1px solid rgb(15, 51, 237); /* Remove borders */
+  border-radius: 50%;
+  outline: none; /* Remove outline */
+  color: rgb(15, 51, 237); /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  background-color: rgba(0, 0, 0, 0.1);
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.fa-chevron-up{
+font-size: 1.5rem;
+padding: 5px;
+}
+
+
+
+
+
+/*Small devices*/
+@media (min-width: 576px) {
+  #main{
+  padding-bottom: 50px;
+  }
+  .service-card-text{
+  font-size: 1rem;
+  }
+  .dashboard-stats{
+  font-size: 2rem;
+  }
+  .getCardInfo{
+  font-size: 1rem;
+  }
+
+  #headerLogo{
+  width: 350px;
+  }
+
+  #videoOne{
+  width: 100%;
+  height: 500px;
+  border-top-right-radius:25px;
+  }
+
+  #videoTwo{
+  width: 100%;
+  height: 400px;
+  border-bottom-left-radius:25px;
+  border-top-right-radius:0px;
+  }
+
+  #without{
+    border-bottom-left-radius:0px;
+    border-top-right-radius:25px;
+    text-align: center;
+  }
+
+  #promCol{
+  border-top-right-radius: 0px;
+  padding-bottom: 30px;
+  }
+
+  .serviceCol{
+  margin-bottom: 30px;
+  }
+
+  .service-card-text{
+  font-size:1.4rem;
+  padding: 5px;
+  }
+
+  .getCardCol{
+  margin-bottom: 30px;
+  }
+
+  .getCardInfo{
+  font-size: 1.4rem;
+  }
+
+
+  /*Table Text*/
+
+  .tableHeader{
+  font-size: 1.2rem;
+  }
+
+  .tableBlueRegularText{
+  font-size: 1.2rem;
+  }
+
+  .tableRegularText{
+  font-size: 1.2rem;
+  }
+}
+
+
+/*Medium devices*/
+@media (min-width: 768px) {
+#main{
+padding-bottom: 50px;
+}
+.service-card-text{
+font-size: 1rem;
+}
+.dashboard-stats{
+font-size: 2rem;
+}
+.getCardInfo{
+font-size: 1rem;
+}
+
+#videoOne{
+width: 100%;
+height: 400px;
+border-top-right-radius:25px;
+}
+
+#videoTwo{
+width: 100%;
+height: 400px;
+border-bottom-left-radius:25px;
+border-top-right-radius:0px;
+}
+
+#without{
+  border-bottom-left-radius:0px;
+  border-top-right-radius:25px;
+  text-align: center;
+}
+
+#promCol{
+border-top-right-radius: 0px;
+padding-bottom: 30px;
+}
+
+.serviceCol{
+margin-bottom: 30px;
+}
+
+.service-card-text{
+font-size:1.4rem;
+padding: 5px;
+}
+
+.getCardCol{
+margin-bottom: 30px;
+}
+
+.getCardInfo{
+font-size: 1.4rem;
+}
+
+/*Table Text*/
+
+.tableHeader{
+font-size: 1.7rem;
+}
+
+.tableBlueRegularText{
+font-size: 1.5rem;
+}
+
+.tableRegularText{
+font-size: 1.5rem;
+}
+}
+
+
+/*Large devices*/
+@media (min-width: 992px) {
+#main{
+padding-bottom: 50px;
+}
+
+.service-card-text{
+font-size: 1rem;
+}
+
+.dashboard-stats{
+font-size: 2rem;
+}
+
+.getCardInfo{
+font-size: 1rem;
+}
+
+#videoOne{
+width: 100%;
+height: 100%;
+border-top-right-radius:0px;
+}
+
+#promCol{
+border-top-right-radius:25px;
+padding-bottom: 30px;;
+}
+
+#videoTwo{
+width: 100%;
+height: 100%;
+border-bottom-left-radius:0px;
+border-top-right-radius:25px;
+}
+
+#without{
+  border-bottom-left-radius:25px;
+  border-top-right-radius:0px;
+  text-align: left;
+}
+/*Table Text*/
+
+.tableHeader{
+font-size: 1.7rem;
+}
+
+.tableBlueRegularText{
+font-size: 1.5rem;
+}
+
+.tableRegularText{
+font-size: 1.5rem;
+}
+
+
+}
+
+/*Extra Large devices*/
+@media (min-width: 1200px) {
+#main{
+padding-bottom: 30px;
+}
+
+#headerLogo{
+width: 600px;
+}
+
+.service-card{
+border: 0px;
+}
+
+.service-card-text{
+font-size: 1.3rem;
+}
+
+.dashboard-stats{
+font-size: 3rem;
+}
+
+.getCardInfo{
+font-size: 1.3rem;
+}
+
+#videoOne{
+width: 100%;
+height: 100%;
+border-top-right-radius:0px;
+}
+
+#promCol{
+border-top-right-radius:25px;
+padding-bottom: 30px;
+}
+
+#videoTwo{
+width: 100%;
+height: 100%;
+border-bottom-left-radius:0px;
+border-top-right-radius:25px;
+}
+
+#without{
+  border-bottom-left-radius:25px;
+  border-top-right-radius:0px;
+  text-align: left;
+}
+
+/*Table Text*/
+
+.tableHeader{
+font-size: 2rem;
+}
+
+.tableBlueRegularText{
+font-size: 1.5rem;
+}
+
+.tableRegularText{
+font-size: 1.5rem;
+}
+
+}
